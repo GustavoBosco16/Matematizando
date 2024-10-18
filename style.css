@@ -1,0 +1,83 @@
+html, body {
+ background-color: lightblue;
+  color: black;
+   margin: 2px;
+     margin-bottom:30px;
+   font-family: "Oswald", system-ui;
+
+}
+
+header {
+  color: black;
+  font-size: 80px;
+  border-bottom: solid 2px white;
+  display: flex;
+  position: relative;
+  margin: 20px;
+  padding: 0px;
+    font-family: "Qwitcher Grypen", system-ui;
+}
+
+.inicio {
+  background: rgb(255,255,255);
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  font-size: 30px;
+  border-radius: 80px;
+  box-shadow: 2px 5px 5px gray;
+  
+}
+
+p{
+  text-align: justify;
+}
+
+.video{
+  margin-right: 50px;
+}
+
+.logo{
+  height:100px;
+  position: relative;
+  z-index: -1;
+  margin-left: 070px;
+}
+
+.batata{
+  margin: 50px;
+  align-content: center;
+}
+
+.clipes{
+  display: flex;
+  overflow: auto;
+  gap: 10px;
+}
+
+.clipes img{
+  height:200px;
+}
+
+.clipes img:hover{
+  opacity: 1.0;
+  border: solid 2px black;
+  box-shadow: 2px 4p4px gray;
+}
+
+footer{
+      font-family: "Qwitcher Grypen", system-ui;
+      color: "black";
+      align-items: center;
+      background-color: rgba(255,192,255,0.562);
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      height: 2em;
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+      display: block
+      margin: 0 auto;
+      padding-left: 450px;
+}
